@@ -1,6 +1,7 @@
 package cn.aq;
 
-public class C_SingleLinkedList {
+//单向链表
+public class C_单向链表 {
     public static void main(String[] args) {
 
         List list1 = new List(1,"艾琦");

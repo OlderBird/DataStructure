@@ -3,7 +3,7 @@ package cn.aq;
 import java.io.*;
 
 //稀疏数组
-public class A_SparseArray {
+public class A_稀疏数组 {
     public static void main(String[] args) throws IOException {
 //        1、创建一个原始的二维数组11*11；0表示没有棋子，1表示黑子，2表示白子
         int originArray[][] = new int[11][11];

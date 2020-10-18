@@ -3,8 +3,8 @@ package cn.aq;
 import java.io.IOException;
 import java.util.Scanner;
 
-//数组模拟队列
-public class B_CircleArrayQueue {
+//数组模拟环形队列
+public class B_环形队列_数组 {
     public static void main(String[] args) {
 
         //创建一个队列，创建长度为4，实际只能存3
