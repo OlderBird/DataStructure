@@ -107,15 +107,15 @@ public class G_栈实现计算器 {
     }
 }
 
+/*定义一个栈，用于存放数或符号*/
 class ArrayStack_cal {
-    /*定义一个栈，用于存放数或符号*/
-    private int MAX;
+    private int length;
     private int[] data;
     private int top = -1;
 
-    ArrayStack_cal(int MAX) {
-        this.MAX = MAX;
-        data = new int[this.MAX];
+    ArrayStack_cal(int length) {
+        this.length = length;
+        data = new int[this.length];
     }
 
     public int[] getData() { return data; }
@@ -133,7 +133,7 @@ class ArrayStack_cal {
 
     /*判断栈满*/
     public boolean IsFull() {
-        return top == MAX-1;
+        return top == length-1;
     }
 
     /*判断栈空*/

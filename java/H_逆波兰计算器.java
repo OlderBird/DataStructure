@@ -20,6 +20,7 @@ public class H_逆波兰计算器 {
 
     }
 
+//    存放字符串方法
     public static List<String> getExpression(String expression) {
         String[] split = expression.split(" ");
         List<String> list = new ArrayList<>();
