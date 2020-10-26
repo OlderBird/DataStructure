@@ -3,7 +3,7 @@ package cn.aq;
 
 
 //排序算法
-public class L_选择排序 {
+public class L_选择_插入_希尔排序 {
 
     /*选择排序*/
 /**第一次从 arr[0]-arr[n-1] 中选取最小值，与 arr[0] 交换
