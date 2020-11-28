@@ -1,7 +1,7 @@
 package cn.aq.排序;
 
 
-/**1、基数排序（radix sort）属于“分配式排序（distribution sort），又称“桶子法（bucket sort）或bin sort
+/**1、基数排序（radix sort）属于“分配式排序（distribution sort），又称“桶子法（bucket sort）或 bin sort
  * 顾名思义，它是通过键值的各个位的值，将要排序的元素分配至某些“桶”中，达到排序的作用
  * 2、基数排序法是属于稳定性的排序，基数排序法的是效率高的稳定性排序法
  * 3、基数排序是桶排序的扩展

@@ -22,7 +22,7 @@ public class 快速排序 {
             int r = right;
             int temp = arr[left];   //临时挖坑
             while (l < r) {
-//                从右边开始寻找是否有一个数比 基准数 小，如果找到就将这个数挖出填入坑中
+//                从右边开始寻找是否有一个数比 基准数小，如果找到就将这个数挖出填入坑中
                 while (l < r && arr[r] >= temp)
                     r--;
                 arr[l] = arr[r];
@@ -34,7 +34,7 @@ public class 快速排序 {
             }
 //            跳出循环时，right 和 left 相等，将基准数填入这个最后的坑中
             arr[l] = temp;
-//            将数据从 temp 一分为二，继续进行 quickSort
+//            将数据从 temp 一分为二，对左边和右边分别继续进行 quickSort
             quickSort(arr, left, l - 1);
             quickSort(arr, l + 1, right);
         }
